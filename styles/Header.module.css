@@ -1,0 +1,25 @@
+.nav {
+  align-items: center;
+  backdrop-filter: saturate(1.8) blur(20px);
+  border-bottom: 1px solid #cbd5e0;
+  display: flex;
+  height: 75px;
+  position: sticky;
+  top: 0;
+}
+
+.menu, .social {
+  display: flex;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 50%;
+}
+
+.menu li, .social li {
+  list-style: none;
+  padding: 1em
+}
+
+.social {
+  justify-content: flex-end;
+}

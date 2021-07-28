@@ -1,0 +1,12 @@
+.div {
+  max-width: 700px;
+  margin: 25px auto;
+  min-height: 200vh;
+  position: relative;
+}
+
+@media (max-width: 1600px) {
+  .div {
+    width: 100vw;
+  }
+}
