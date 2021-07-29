@@ -1,8 +1,11 @@
 import Head from 'next/head'
 
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import { Container } from '../components/Container'
 import { Header } from '../components/Header'
+import { Grid } from '../components/Grid'
+import { Project } from '../components/Project'
+import { Section } from '../components/Section'
 
 export default function Home () {
   return (
@@ -18,8 +21,50 @@ export default function Home () {
           Hola! Soy <span className={styles.gradient}>Víctor Romero</span> 👋
         </h1>
         <p className={styles.bio}>
-          Soy desarrollador fullstack, especializado en el ecosistema JavaScript. Un día descubrí el mundo de la programación, me enamoré de ello y me lancé a hacerlo mi profesión. Aprender es mi pasión.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sed blandit diam. Vestibulum aliquam rhoncus est, non porta enim condimentum sit amet. Donec ornare euismod nisi a ullamcorper. Suspendisse dolor ligula, imperdiet vel pretium nec, fermentum ac ligula. Mauris fringilla viverra ultricies.
         </p>
+        <Section
+          title='Projects'
+        >
+          <Grid>
+            <Project
+              icon='👨‍🚀'
+              title='Title.js'
+              description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
+              url='http://www.vrom.dev'
+            />
+            <Project
+              icon='🔮'
+              title='Title.js'
+              description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
+              url='http://www.vrom.dev'
+            />
+            <Project
+              icon='⭐'
+              title='Title.js'
+              description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
+              url='http://www.vrom.dev'
+            />
+            <Project
+              icon='💾'
+              title='Title.js'
+              description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
+              url='http://www.vrom.dev'
+            />
+            <Project
+              icon='🧛‍♂️'
+              title='Title.js'
+              description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
+              url='http://www.vrom.dev'
+            />
+            <Project
+              icon='👼'
+              title='Title.js'
+              description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
+              url='http://www.vrom.dev'
+            />
+          </Grid>
+        </Section>
       </Container>
     </>
   )

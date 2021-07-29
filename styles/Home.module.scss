@@ -3,15 +3,14 @@
 }
 
 .gradient {
-  background: rgb(0,119,255);
-  background: linear-gradient(
-    90deg, 
-  rgba(0,119,255,1) 0%, 
-  rgba(32,85,204,1) 100%);
+  background: rgb(255, 153, 68);
+  background-image: linear-gradient(to bottom right,rgb(255, 153, 68) 16%,rgb(255, 205, 66) 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  
+  &::selection {
+    -webkit-text-fill-color: #fff;
+  }
 }
 
 .bio {
