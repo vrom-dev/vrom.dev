@@ -1,11 +1,12 @@
 import Head from 'next/head'
 
-import styles from '../styles/Home.module.scss'
+// import styles from '../styles/Home.module.scss'
 import { Container } from '../components/Container'
 import { Header } from '../components/Header'
 import { Grid } from '../components/Grid'
 import { Project } from '../components/Project'
 import { Section } from '../components/Section'
+import { CallToAction } from '../components/CallToAction'
 
 export default function Home () {
   return (
@@ -17,14 +18,9 @@ export default function Home () {
       </Head>
       <Container>
         <Header />
-        <h1 className={styles.title}>
-          Hola! Soy <span className={styles.gradient}>Víctor Romero</span> 👋
-        </h1>
-        <p className={styles.bio}>
-          Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sed blandit diam. Vestibulum aliquam rhoncus est, non porta enim condimentum sit amet. Donec ornare euismod nisi a ullamcorper. Suspendisse dolor ligula, imperdiet vel pretium nec, fermentum ac ligula. Mauris fringilla viverra ultricies.
-        </p>
+        <CallToAction />
         <Section
-          title='Projects'
+          title='Proyectos'
         >
           <Grid>
             <Project
