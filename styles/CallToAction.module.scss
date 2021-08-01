@@ -12,13 +12,13 @@
 .gradient {
   display: block;
   font-size: 4rem;
-  background: #f94;
-  background-image: linear-gradient(to bottom right,rgb(255, 153, 68) 16%,rgb(255, 205, 66) 100%);
+  background: var(--color-primary);
+  background-image: linear-gradient(to bottom right,var(--color-primary) 0%, var(--color-secondary) 50%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   &::selection {
-    -webkit-text-fill-color: #fff;
+    -webkit-text-fill-color: var(--color-white);
   }
 }
 
@@ -30,7 +30,7 @@
 
 .img_container {
   min-width: 225px;
-  border-radius: 10rem;
+  border-radius: 50rem;
   overflow: hidden;
 }
 
@@ -40,12 +40,12 @@
 
 .button {
   padding: .4rem;
-  border-radius: .5rem;
-  transition: background-color .3s, color .3s;
-  background-color: rgba(152, 157, 163, .7);
+  border-radius: var(--border-radius-default);
+  transition: var(--transition-default);
+  background-color: var(--button-primary);
   color: #fff;
   &:hover {
-    background-color: rgba(152, 157, 163, 0.05);
+    background-color: var(--button-secondary);
     text-decoration: underline;
     color: inherit;
   }

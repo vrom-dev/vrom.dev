@@ -1,0 +1,29 @@
+// animation: slide-jsx-2444343282 100s linear infinite;
+// }
+
+.wrapper {
+  display: flex;
+  place-content: center;
+  animation: slide 30s linear infinite;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.tech {
+  margin: 1em;
+  filter:grayscale(100%);
+  transition: var(--transition-default);
+  &:hover {
+    filter: none;
+  }
+}
+
+@keyframes slide { 
+  0% {
+    transform: translate3d(0,0,0);
+  }
+
+  100% {
+    transform: translate3d(-50%,0,0);
+  } 
+}

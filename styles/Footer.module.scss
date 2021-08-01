@@ -1,0 +1,30 @@
+.footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 60px;
+  position: relative;
+}
+
+.socialmedia, .madeby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+.socialmedia {
+  margin-top: 2rem;
+}
+
+.link {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: var(--textcolor-primary);
+  &:hover {
+    color: var(--textcolor-primary-soft);
+  }
+}
+
+.madeby {
+  gap: .5rem;
+  margin-top: .7rem;
+}

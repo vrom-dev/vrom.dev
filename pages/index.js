@@ -7,6 +7,8 @@ import { Grid } from '../components/Grid'
 import { Project } from '../components/Project'
 import { Section } from '../components/Section'
 import { CallToAction } from '../components/CallToAction'
+import { Techs } from '../components/Techs'
+import { Footer } from '../components/Footer'
 
 export default function Home () {
   return (
@@ -61,6 +63,12 @@ export default function Home () {
             />
           </Grid>
         </Section>
+        <Section
+          title='Skills'
+        >
+          <Techs />
+        </Section>
+        <Footer />
       </Container>
     </>
   )
