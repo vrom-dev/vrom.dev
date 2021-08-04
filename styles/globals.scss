@@ -1,13 +1,13 @@
 :root {
   --color-primary: #f94;
-  --color-secondary: #fc4;
+  --color-secondary: #fc3;
   --color-white: #fff;
   --textcolor-primary: #456;
   --textcolor-primary-soft: rgba(75, 85, 99, .8);
   --button-primary: #99a;
   --button-secondary: #eee;
   --border-default: #99a;
-  --border-radius-default: 4px;
+  --border-radius-default: 3px;
   --transition-default: all ease-in 0.15s;
   // --spacing-default: 16px;
   // --spacing-small: 8px;
@@ -18,8 +18,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'DM Sans',-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  color: var(--textcolor-primary)
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--textcolor-primary);
+  font-size: 16px;
 }
 
 a {

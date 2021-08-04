@@ -24,6 +24,7 @@ export function CallToAction () {
         <Image
           src={profilePic}
           alt='Picture of Vic'
+          layout='responsive'
           className={css.background}
         />
       </div>
