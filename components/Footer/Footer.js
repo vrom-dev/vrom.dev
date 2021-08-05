@@ -1,6 +1,4 @@
-import Image from 'next/image'
-import css from '../styles/Footer.module.scss'
-import nextLogo from '../public/img/logos/nextjs.svg'
+import css from './Footer.module.scss'
 
 import {
   FiLinkedin,
@@ -45,18 +43,7 @@ export function Footer () {
       <section
         className={css.madeby}
       >
-        <div>Made with 🧡 and</div>
-        <a
-          href='https://nextjs.org'
-        >
-          <Image
-            src={nextLogo}
-            alt='Next.js logo'
-            width={55}
-            height={30}
-          />
-        </a>
-        <div>by Víctor Romero</div>
+        <p>Made with 🧡 and by Víctor Romero</p>
       </section>
     </footer>
   )

@@ -1,4 +1,4 @@
-import css from '../styles/Section.module.scss'
+import css from './Section.module.scss'
 
 export function Section ({ title, children }) {
   return (
