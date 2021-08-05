@@ -1,0 +1,8 @@
+.header {
+  position: sticky;
+  top: -1px;
+  backdrop-filter: blur(20px);
+  z-index: 100;
+  padding: 1rem;
+  margin-top: .5rem;
+}

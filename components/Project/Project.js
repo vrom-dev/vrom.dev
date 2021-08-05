@@ -1,4 +1,4 @@
-import css from '../styles/Project.module.scss'
+import css from './Project.module.scss'
 
 export function Project ({ icon, title, url, description }) {
   return (

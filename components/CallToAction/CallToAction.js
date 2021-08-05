@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-import css from '../styles/CallToAction.module.scss'
-import profilePic from '../public/img/me.png'
+import css from './CallToAction.module.scss'
+import profilePic from '../../public/img/me.png'
 
 export function CallToAction () {
   return (
