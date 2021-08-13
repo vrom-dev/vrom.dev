@@ -1,22 +1,16 @@
 .button {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 2.5rem;
   height: 2.5rem;
   border-radius: var(--border-radius-default);
   border: none;
-  cursor: pointer;
+  cursor: pointer;  
   background-color: transparent;
 }
 
-.iconContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-
-.icon, .iconOpen {
+.icon {
   width: 100%;
   height: 4px;
   border-radius: 2px;
