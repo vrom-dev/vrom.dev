@@ -3,13 +3,13 @@ import Head from 'next/head'
 import { getAllFilesMetadata } from '../utils/mdxUtils'
 
 import AppLayout from '../components/AppLayout'
-import { Container } from '../components/Container/Container'
-import { Grid } from '../components/Grid/Grid'
-import { Project } from '../components/Project/Project'
-import { Section } from '../components/Section/Section'
-import { CallToAction } from '../components/CallToAction/CallToAction'
-import { Techs } from '../components/Techs/Techs'
-import { Footer } from '../components/Footer/Footer'
+import Container from '../components/Container'
+import Grid from '../components/Grid'
+import Project from '../components/Project'
+import Section from '../components/Section'
+import CallToAction from '../components/CallToAction'
+import Techs from '../components/Techs'
+import Footer from '../components/Footer'
 
 export default function Home ({ posts }) {
   return (
@@ -47,24 +47,6 @@ export default function Home ({ posts }) {
               />
               <Project
                 icon='⭐'
-                title='Title.js'
-                description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-                url='http://www.vrom.dev'
-              />
-              <Project
-                icon='💾'
-                title='Title.js'
-                description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-                url='http://www.vrom.dev'
-              />
-              <Project
-                icon='🧛‍♂️'
-                title='Title.js'
-                description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-                url='http://www.vrom.dev'
-              />
-              <Project
-                icon='👼'
                 title='Title.js'
                 description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
                 url='http://www.vrom.dev'

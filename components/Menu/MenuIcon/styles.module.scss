@@ -24,7 +24,7 @@
     height: 4px;
     border-radius: 2px;
     background-color: #777;
-    transition: var(--transition-default);
+    transition: var(--transition-menu);
   }
   &::before {
     top: .5rem;
@@ -36,10 +36,10 @@
     height: 0;
     &::before, &::after {
       top: 0;
-      transform: rotate(-225deg);
+      transform: rotate(-135deg);
     }
     &::after {
-      transform: rotate(225deg);
+      transform: rotate(135deg);
     }
   }
 }

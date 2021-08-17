@@ -15,9 +15,9 @@ import gitLogo from '../../public/img/logos/git.svg'
 import graphqlLogo from '../../public/img/logos/graphql.svg'
 import expressLogo from '../../public/img/logos/express.svg'
 
-import css from './Techs.module.scss'
+import styles from './styles.module.scss'
 
-export function Techs () {
+export default function Techs () {
   const arrayLogos1 = [
     { alt: 'JavaScript logo', ...jsLogo },
     { alt: 'React logo', ...reactLogo },
@@ -37,13 +37,13 @@ export function Techs () {
     { alt: 'Spring logo', ...springLogo }
   ]
   return (
-    <div className={css.container}>
-      <div className={css.sliderWrapper}>
-        <div className={css.slider1}>
+    <div className={styles.container}>
+      <div className={styles.sliderWrapper}>
+        <div className={styles.slider1}>
           {
             arrayLogos1.map(logo => (
               <div
-                className={css.tech}
+                className={styles.tech}
                 key={logo.alt}
               >
                 <Image
@@ -57,12 +57,12 @@ export function Techs () {
           }
         </div>
         <div
-          className={css.slider2}
+          className={styles.slider2}
         >
           {
             arrayLogos1.map(logo => (
               <div
-                className={css.tech}
+                className={styles.tech}
                 key={logo.src}
               >
                 <Image
@@ -76,12 +76,12 @@ export function Techs () {
           }
         </div>
       </div>
-      <div className={css.sliderWrapper} style={{ animationDuration: '80s' }}>
-        <div className={css.slider1}>
+      <div className={styles.sliderWrapper} style={{ animationDuration: '80s' }}>
+        <div className={styles.slider1}>
           {
             arrayLogos2.map(logo => (
               <div
-                className={css.tech}
+                className={styles.tech}
                 key={logo.src}
               >
                 <Image
@@ -95,12 +95,12 @@ export function Techs () {
           }
         </div>
         <div
-          className={css.slider2}
+          className={styles.slider2}
         >
           {
             arrayLogos2.map(logo => (
               <div
-                className={css.tech}
+                className={styles.tech}
                 key={logo.src}
               >
                 <Image

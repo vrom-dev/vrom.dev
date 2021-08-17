@@ -1,5 +1,6 @@
 import matter from 'gray-matter'
 import { serialize } from 'next-mdx-remote/serialize'
+import mdxPrism from 'mdx-prism'
 
 import fs from 'fs'
 import path from 'path'
@@ -17,7 +18,7 @@ export const getFileBySlug = async ({ slug }) => {
     // Optionally pass remark/rehype plugins
     mdxOptions: {
       remarkPlugins: [],
-      rehypePlugins: []
+      rehypePlugins: [mdxPrism]
     },
     scope: data
   })

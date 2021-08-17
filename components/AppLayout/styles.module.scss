@@ -14,5 +14,12 @@
 }
 
 .main {
-  margin-top: 4.5em;
+  margin-top: 4.5rem;
+}
+
+@media(min-width: 600px) {
+  .header {
+    backdrop-filter: blur(5px);
+    background-color: inherit;
+  }
 }

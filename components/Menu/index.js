@@ -11,16 +11,16 @@ export default function Menu () {
   }
 
   const menuStyles = isOpen
-    ? `${styles.menu} ${styles.menuOpen}`
-    : styles.menu
+    ? `${styles.nav} ${styles.navOpen}`
+    : styles.nav
 
   return (
     <>
-      <nav>
-        <div className={styles.mobileBar}>
-          <MenuIcon toggle={handleOpenMenu} />
-        </div>
-        <ul className={menuStyles}>
+      <div className={styles.mobileBar}>
+        <MenuIcon toggle={handleOpenMenu} />
+      </div>
+      <nav className={menuStyles}>
+        <ul className={styles.menu}>
           <li className={styles.menuItem}>Home</li>
           <li className={styles.menuItem}>Projects</li>
           <li className={styles.menuItem}>Blogs</li>
