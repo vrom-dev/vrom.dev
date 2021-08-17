@@ -9,10 +9,15 @@
   --border-default: #99a;
   --border-radius-default: 3px;
   --transition-default: all ease-in 0.15s;
+  --transition-menu: all ease-in 0.3s;
   --theme-ui-colors-toggleIcon: #aaa;
   // --spacing-default: 16px;
   // --spacing-small: 8px;
   // --spacing-large: 32px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html,
@@ -27,10 +32,6 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 ::selection {

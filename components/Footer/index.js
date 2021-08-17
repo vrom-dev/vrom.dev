@@ -1,4 +1,4 @@
-import css from './Footer.module.scss'
+import styles from './styles.module.scss'
 
 import {
   FiLinkedin,
@@ -7,43 +7,43 @@ import {
   FiMail
 } from 'react-icons/fi'
 
-export function Footer () {
+export default function Footer () {
   return (
     <footer
-      className={css.footer}
+      className={styles.footer}
     >
       <section
-        className={css.socialmedia}
+        className={styles.socialmedia}
       >
         <a
           href='http://google.es'
-          className={css.link}
+          className={styles.link}
         >
           <FiLinkedin />
         </a>
         <a
           href='http://google.es'
-          className={css.link}
+          className={styles.link}
         >
           <FiGithub />
         </a>
         <a
           href='http://google.es'
-          className={css.link}
+          className={styles.link}
         >
           <FiTwitter />
         </a>
         <a
           href='http://google.es'
-          className={css.link}
+          className={styles.link}
         >
           <FiMail />
         </a>
       </section>
       <section
-        className={css.madeby}
+        className={styles.madeby}
       >
-        <p>Made with 🧡 and by Víctor Romero</p>
+        <p>Made with Next.js and 🧡 by Víctor Romero</p>
       </section>
     </footer>
   )
