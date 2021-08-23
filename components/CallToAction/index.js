@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import styles from './styles.module.scss'
-import profilePic from '../../public/img/me.png'
+import profilePic from '../../public/img/me2.png'
 
 export default function CallToAction () {
   return (
@@ -17,8 +17,11 @@ export default function CallToAction () {
           href='/docs/sample.pdf'
           target='_blank'
           rel='noopener noreferrer'
-          className={styles.button}
-        >Download CV
+
+        >
+          <a className={styles.button}>
+            Download CV
+          </a>
         </Link>
       </div>
       <div className={styles.img_container}>
