@@ -76,7 +76,7 @@ export default function Techs () {
           }
         </div>
       </div>
-      <div className={styles.sliderWrapper} style={{ animationDuration: '80s' }}>
+      <div className={styles.sliderWrapper} style={{ animationDuration: '45s' }}>
         <div className={styles.slider1}>
           {
             arrayLogos2.map(logo => (

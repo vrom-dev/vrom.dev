@@ -10,6 +10,7 @@ import Section from '../components/Section'
 import CallToAction from '../components/CallToAction'
 import Techs from '../components/Techs'
 import Footer from '../components/Footer'
+import ArticlesList from '../components/ArticlesList'
 
 export default function Home ({ posts }) {
   return (
@@ -25,9 +26,9 @@ export default function Home ({ posts }) {
           <Section
             title='Artículos'
           >
-            <ul>
-              {posts.map(post => <li key={post.title}>{post.title}</li>)}
-            </ul>
+            <ArticlesList
+              posts={posts}
+            />
           </Section>
           <Section
             title='Proyectos'

@@ -6,7 +6,6 @@ import Container from '../components/Container'
 import Footer from '../components/Footer'
 
 export default function Post ({ source, frontmatter }) {
-  console.log(frontmatter)
   return (
     <AppLayout>
       <Container>
