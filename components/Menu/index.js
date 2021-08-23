@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import MenuIcon from './MenuIcon'
+import Link from 'next/link'
 
 import styles from './styles.module.scss'
 
@@ -21,9 +22,21 @@ export default function Menu () {
       </div>
       <nav className={menuStyles}>
         <ul className={styles.menu}>
-          <li className={styles.menuItem}>Home</li>
-          <li className={styles.menuItem}>Projects</li>
-          <li className={styles.menuItem}>Blogs</li>
+          <li className={styles.menuItem}>
+            <Link href='/'>
+              <a onClick={handleOpenMenu}>Home</a>
+            </Link>
+          </li>
+          <li className={styles.menuItem}>
+            <Link href='/about'>
+              <a onClick={handleOpenMenu}>Sobre mí</a>
+            </Link>
+          </li>
+          <li className={styles.menuItem}>
+            <Link href='/projects'>
+              <a onClick={handleOpenMenu}>Projectos</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </>

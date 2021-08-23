@@ -11,6 +11,7 @@
   --transition-default: all ease-in 0.15s;
   --transition-menu: all ease-in 0.3s;
   --theme-ui-colors-toggleIcon: #aaa;
+  --box-shadow: 0 0 30px rgba(0,0,0,0.12);
   // --spacing-default: 16px;
   // --spacing-small: 8px;
   // --spacing-large: 32px;
@@ -37,4 +38,28 @@ a {
 ::selection {
   background: var(--color-primary);
   color:  var(--color-white);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+em, strong {
+  color: #6a51e6;
+}
+
+code {
+  color: var(--textcolor-primary-soft);
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.9rem;
+}
+
+p a {
+  color: #6a51e6;
+  &:hover {
+    color: #c4b9fe;
+  }
 }
