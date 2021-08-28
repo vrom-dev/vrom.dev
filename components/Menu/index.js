@@ -24,7 +24,7 @@ export default function Menu () {
         <ul className={styles.menu}>
           <li className={styles.menuItem}>
             <Link href='/'>
-              <a onClick={handleOpenMenu}>Home</a>
+              <a onClick={handleOpenMenu}>Inicio</a>
             </Link>
           </li>
           <li className={styles.menuItem}>
@@ -34,7 +34,7 @@ export default function Menu () {
           </li>
           <li className={styles.menuItem}>
             <Link href='/projects'>
-              <a onClick={handleOpenMenu}>Projectos</a>
+              <a onClick={handleOpenMenu}>Proyectos</a>
             </Link>
           </li>
         </ul>

@@ -10,7 +10,6 @@
   background-color: var(--color-white);
   box-shadow: var(--box-shadow);
   z-index: 100;
-  padding: 1rem;
   top: 0;
 }
 
@@ -21,6 +20,6 @@
 @media(min-width: 600px) {
   .header {
     backdrop-filter: blur(5px);
-    background-color: inherit;
+    background-color: rgba(255, 255, 255, 0.7);
   }
 }
