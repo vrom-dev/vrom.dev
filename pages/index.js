@@ -24,13 +24,6 @@ export default function Home ({ posts }) {
         <Container>
           <CallToAction />
           <Section
-            title='Artículos'
-          >
-            <ArticlesList
-              posts={posts}
-            />
-          </Section>
-          <Section
             title='Proyectos'
           >
             <Grid>
@@ -53,6 +46,13 @@ export default function Home ({ posts }) {
                 url='http://www.vrom.dev'
               />
             </Grid>
+          </Section>
+          <Section
+            title='Artículos'
+          >
+            <ArticlesList
+              posts={posts}
+            />
           </Section>
           <Section
             title='Skills'

@@ -11,16 +11,23 @@ export default function CallToAction () {
         <h1 className={styles.title}>
           👋 Hola! Soy <span className={styles.gradient}>Víctor Romero</span>
         </h1>
-        <p className={styles.bio}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, odio culpa? Nemo, minima earum impedit aliquam, nostrum, odio eum dolore sunt ea perspiciatis voluptas molestiae aliquid odit. Consectetur, et dolor.
+        <p className={styles.bio}>
+          <b>Full Stack Developer</b>
+          , especializado en el ecosistema JavaScript. Esta web es mi pequeño rincón digital — un compendio de cosas que he aprendido y creado.
+        </p>
+        <p className={styles.bio}>Si quieres contactar conmigo, no dudes en <Link href='mailto:vromerocomino@gmail.com' target='_blank' rel='noopener noreferrer'>
+          <a className={styles.link} >escribirme</a>
+        </Link>.
         </p>
         <Link
           href='/docs/sample.pdf'
+        >
+          <a
+          className={styles.button}
           target='_blank'
           rel='noopener noreferrer'
-
-        >
-          <a className={styles.button}>
-            Download CV
+          >
+            Descargar CV
           </a>
         </Link>
       </div>

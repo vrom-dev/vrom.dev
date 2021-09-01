@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import styles from './styles.module.scss'
 
 import {
@@ -15,30 +17,42 @@ export default function Footer () {
       <section
         className={styles.socialmedia}
       >
-        <a
-          href='http://google.es'
-          className={styles.link}
-        >
-          <FiLinkedin />
-        </a>
-        <a
-          href='http://google.es'
-          className={styles.link}
-        >
-          <FiGithub />
-        </a>
-        <a
-          href='http://google.es'
-          className={styles.link}
-        >
-          <FiTwitter />
-        </a>
-        <a
-          href='http://google.es'
-          className={styles.link}
-        >
-          <FiMail />
-        </a>
+        <Link href='https://www.linkedin.com/in/vromdev'>
+          <a
+            className={styles.link}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FiLinkedin />
+          </a>
+        </Link>
+        <Link href='https://github.com/vrom-dev'>
+          <a
+            className={styles.link}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FiGithub />
+          </a>
+        </Link>
+        <Link href='http://twitter.com/vromdev'>
+          <a
+            className={styles.link}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FiTwitter />
+          </a>
+        </Link>
+        <Link href='mailto:vromerocomino@gmail.com'>
+          <a
+            className={styles.link}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FiMail />
+          </a>
+        </Link>
       </section>
       <section
         className={styles.madeby}
