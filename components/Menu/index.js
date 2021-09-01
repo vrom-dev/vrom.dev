@@ -32,11 +32,11 @@ export default function Menu () {
               <a onClick={handleOpenMenu}>Sobre mí</a>
             </Link>
           </li>
-          <li className={styles.menuItem}>
+          {/* <li className={styles.menuItem}>
             <Link href='/projects'>
               <a onClick={handleOpenMenu}>Proyectos</a>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </>
