@@ -1,20 +1,15 @@
 :root {
-  --color-primary: #f94;
-  --color-secondary: #fc3;
+  --color-primary: #7a63ee;
+  --color-secondary: #9a86fd;
   --color-white: #fff;
   --textcolor-primary: #456;
   --textcolor-primary-soft: rgba(75, 85, 99, .8);
-  --button-primary: #99a;
-  --button-secondary: #eee;
+  --textcolor-secondary: #efefef;
   --border-default: #99a;
   --border-radius-default: 3px;
   --transition-default: all ease-in 0.15s;
   --transition-menu: all ease-in 0.3s;
-  --theme-ui-colors-toggleIcon: #aaa;
   --box-shadow: 0 0 30px rgba(0,0,0,0.12);
-  // --spacing-default: 16px;
-  // --spacing-small: 8px;
-  // --spacing-large: 32px;
 }
 
 * {
@@ -44,22 +39,23 @@ h1 {
   font-size: 3rem;
 }
 
-em, strong {
-  color: #6a51e6;
-}
-
-code {
-  color: var(--textcolor-primary-soft);
-  font-weight: 700;
-}
-
 p {
   line-height: 1.9rem;
+  letter-spacing: .01rem;
 }
 
+em {
+  font-weight: 500;
+}
+
+p code {
+  color: var(--textcolor-primary-soft);
+}
 p a {
-  color: #6a51e6;
+  color: var(--color-secondary);
+  text-decoration: underline;
+  font-weight: 700;
   &:hover {
-    color: #c4b9fe;
+    color: var(--color-primary);
   }
 }

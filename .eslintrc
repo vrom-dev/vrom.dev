@@ -2,6 +2,6 @@
   "extends": [
     "next", 
     "next/core-web-vitals", 
-    "./node_modules/standard/eslintrc.json"
+    "standard"
   ]
 }

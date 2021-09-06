@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import fetch from 'node-fetch'
 
 import { getAllFilesMetadata } from '../utils/mdxUtils'
 
@@ -12,7 +13,7 @@ import Techs from '../components/Techs'
 import Footer from '../components/Footer'
 import ArticlesList from '../components/ArticlesList'
 
-export default function Home ({ posts }) {
+export default function Home ({ posts, repos }) {
   return (
     <>
       <Head>
@@ -24,35 +25,26 @@ export default function Home ({ posts }) {
         <Container>
           <CallToAction />
           <Section
+            title='Proyectos'
+          >
+            <Grid>
+              {repos.map(({ repo, link, description, language }) => (
+                <Project
+                  key={link}
+                  url={link}
+                  icon='👨‍🚀'
+                  description={description}
+                  title={repo}
+                />
+              ))}
+            </Grid>
+          </Section>
+          <Section
             title='Artículos'
           >
             <ArticlesList
               posts={posts}
             />
-          </Section>
-          <Section
-            title='Proyectos'
-          >
-            <Grid>
-              <Project
-                icon='👨‍🚀'
-                title='Title.js'
-                description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-                url='http://www.vrom.dev'
-              />
-              <Project
-                icon='🔮'
-                title='Title.js'
-                description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-                url='http://www.vrom.dev'
-              />
-              <Project
-                icon='⭐'
-                title='Title.js'
-                description='Interdum et malesuada fames ac ante ipsum primis in faucibus.'
-                url='http://www.vrom.dev'
-              />
-            </Grid>
           </Section>
           <Section
             title='Skills'
@@ -68,7 +60,11 @@ export default function Home ({ posts }) {
 
 export async function getStaticProps () {
   const posts = await getAllFilesMetadata()
+  const reposData = await fetch('https://gh-pinned-repos-5l2i19um3.vercel.app/?username=vrom-dev')
+  const reposJson = await reposData.json()
+  const repos = reposJson.slice(0, 3)
+
   return {
-    props: { posts }
+    props: { posts, repos }
   }
 }

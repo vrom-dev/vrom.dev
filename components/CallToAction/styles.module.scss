@@ -53,16 +53,16 @@
 
 .button {
   display: inline-block;
-  font-weight: 500;
-  margin: 1rem auto;
   padding: 0.5rem;
   border-radius: var(--border-radius-default);
   transition: var(--transition-default);
-  background-color: var(--button-primary);
-  color: #fff;
+  color: var(--textcolor-secondary);
+  background: var(--color-primary);
   &:hover {
-    background-color: var(--button-secondary);
+    background-color: var(--color-secondary);
     text-decoration: underline;
-    color: inherit;
+  }
+  &:active {
+    transform: scale(.95);
   }
 }
