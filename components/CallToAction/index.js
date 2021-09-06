@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import styles from './styles.module.scss'
-import profilePic from '../../public/img/me2.png'
+import profilePic from '../../public/img/me.png'
 
 export default function CallToAction () {
   return (
@@ -16,16 +16,16 @@ export default function CallToAction () {
           , especializado en el ecosistema JavaScript. Esta web es mi pequeño rincón digital — un compendio de cosas que he aprendido y creado.
         </p>
         <p className={styles.bio}>Si quieres contactar conmigo, no dudes en <Link href='mailto:vromerocomino@gmail.com' target='_blank' rel='noopener noreferrer'>
-          <a className={styles.link} >escribirme</a>
-        </Link>.
+          <a className={styles.link}>escribirme</a>
+                                                                            </Link>.
         </p>
         <Link
           href='/docs/sample.pdf'
         >
           <a
-          className={styles.button}
-          target='_blank'
-          rel='noopener noreferrer'
+            className={styles.button}
+            target='_blank'
+            rel='noopener noreferrer'
           >
             Descargar CV
           </a>
