@@ -5,7 +5,7 @@ import styles from './styles.module.scss'
 import {
   FiLinkedin,
   FiGithub,
-  FiTwitter,
+  // FiTwitter,
   FiMail
 } from 'react-icons/fi'
 
@@ -35,7 +35,7 @@ export default function Footer () {
             <FiGithub />
           </a>
         </Link>
-        <Link href='http://twitter.com/vromdev'>
+        {/* <Link href='http://twitter.com/vromdev'>
           <a
             className={styles.link}
             target='_blank'
@@ -43,7 +43,7 @@ export default function Footer () {
           >
             <FiTwitter />
           </a>
-        </Link>
+        </Link> */}
         <Link href='mailto:vromerocomino@gmail.com'>
           <a
             className={styles.link}
