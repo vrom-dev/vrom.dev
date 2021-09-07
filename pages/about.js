@@ -26,7 +26,7 @@ export default function About () {
         </ul>
 
         <p>En ambos he tenido la oportunidad de trabajar con distintas lenguajes y tecnologías como JavaScript, Java, Node.js, Express, Spring, Git, MySQL o MongoDB. También he podido trabajar con <strong>metologías ágiles</strong> y en entornos de <strong>desarrollo en equipo</strong>.</p>
-        <p>👉🏽  Si quieres saber más sobre mí, aquí te dejo <Link href='/docs/sample.pdf'><a target='_blank' rel='noopener noreferrer'>mi CV</a></Link> y mi <Link href='https://www.linkedin.com/in/vromdev'><a target='_blank' rel='noopener noreferrer'>Linkedin</a></Link>.
+        <p>👉🏽  Si quieres saber más sobre mí, aquí te dejo <Link href='/docs/cvitae.pdf'><a target='_blank' rel='noopener noreferrer'>mi CV</a></Link> y mi <Link href='https://www.linkedin.com/in/vromdev'><a target='_blank' rel='noopener noreferrer'>Linkedin</a></Link>.
         </p>
 
         <h2>🧠 Soft-Skills</h2>

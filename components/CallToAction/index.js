@@ -20,7 +20,7 @@ export default function CallToAction () {
                                                                             </Link>.
         </p>
         <Link
-          href='/docs/sample.pdf'
+          href='/docs/cvitae.pdf'
         >
           <a
             className={styles.button}
