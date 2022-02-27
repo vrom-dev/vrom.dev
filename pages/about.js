@@ -17,15 +17,15 @@ export default function About () {
 
         <h2>👨‍💻 Formación</h2>
 
-        <p>Soy estudiante de Desarrollo de Aplicaciones Web 💻 en <Link href='https://www.ilerna.es/es/ciclo-grado-superior-desarrollo-aplicaciones-web-72'><a target='_blank' rel='noopener noreferrer'>Ilerna</a></Link>, especializado en el ecosistema JavaScript tanto en el front como en el backend.</p>
+        <p>Soy recién graduado de un CFGS en Desarrollo de Aplicaciones Web 💻 en <Link href='https://www.ilerna.es/es/ciclo-grado-superior-desarrollo-aplicaciones-web-72'><a target='_blank' rel='noopener noreferrer'>Ilerna</a></Link>, especializado en el ecosistema JavaScript tanto en el front como en el backend.</p>
 
-        <p>Además, este último año he realizado dos bootcamps:</p>
+        <p>Además, este último año he realizado dos formaciones adicionales:</p>
         <ul>
-          <li>El bootcamp de Programación Web de <Link href='https://spain.generation.org/spain/programacion-web/'><a target='_blank' rel='noopener noreferrer'>Generation Spain y Verizon</a></Link> (16 semanas).</li>
-          <li>El bootcamp de Node.js de <Link href='https://cibernarium.barcelonactiva.cat/it-academy/inscripcio'><a target='_blank' rel='noopener noreferrer'>IT Academy</a></Link> (12 semanas).</li>
+          <li>Un bootcamp de Node.js con <Link href='https://cibernarium.barcelonactiva.cat/it-academy/inscripcio'><a target='_blank' rel='noopener noreferrer'>IT Academy</a></Link>.</li>
+          <li>Un curso intensivo de Programación Web de <Link href='https://spain.generation.org/spain/programacion-web/'><a target='_blank' rel='noopener noreferrer'>Generation Spain y Verizon</a></Link>.</li>
         </ul>
 
-        <p>En ambos he tenido la oportunidad de trabajar con distintas lenguajes y tecnologías como JavaScript, Java, Node.js, Express, Spring, Git, MySQL o MongoDB. También he podido trabajar con <strong>metologías ágiles</strong> y en entornos de <strong>desarrollo en equipo</strong>.</p>
+        <p>En ambos he tenido la oportunidad de trabajar con distintas lenguajes y tecnologías como JavaScript, Java, Node.js, Express, Socket.io, RabbitMQ, Git, MySQL o MongoDB. También he podido trabajar con <strong>metologías ágiles</strong> y en entornos de <strong>desarrollo en equipo</strong>.</p>
         <p>👉🏽  Si quieres saber más sobre mí, aquí te dejo <Link href='/docs/cvitae.pdf'><a target='_blank' rel='noopener noreferrer'>mi CV</a></Link> y mi <Link href='https://www.linkedin.com/in/vromdev'><a target='_blank' rel='noopener noreferrer'>Linkedin</a></Link>.
         </p>
 
@@ -35,13 +35,13 @@ export default function About () {
 
         <p>Me encanta <strong>trabajar en equipo</strong> y colaborar con personas de diferentes perfiles, y siempre trato de aprender del resto de miembros del equipo, así como ser proactivo y receptivo en la toma de decisiones.</p>
 
-        <p>Soy una persona bastante <strong>crítica</strong> con el trabajo que hago o el de los demás, lo veo como un requisito fundamental para mejorar. Obviamente siempre intento dar <strong>feedback</strong> de forma constructiva y estando abierto a que me lo den.</p>
+        <p>Me considero una persona bastante <strong>crítica</strong> con el trabajo que hago o el de los demás, lo veo como un requisito fundamental para mejorar. Obviamente siempre intento dar <strong>feedback</strong> de forma constructiva y estando abierto a que me lo den.</p>
 
         <h2>🎨 Aficiones</h2>
 
         <p>Lógicamente, no todo es programar en la vida. </p>
 
-        <p>La montaña es mi hábitat, disfruto yendo a pasear, a hacer senderismo o a buscar setas 🍄. Normalmente lo hago acompañado de mis dos perros, uno de ellos es un <Link href='https://es.wikipedia.org/wiki/Perro_trufero'><a target='_blank' rel='noopener noreferrer'>perro trufero</a></Link>.</p>
+        <p>La montaña es mi hábitat, disfruto yendo a pasear, a hacer senderismo o a buscar setas 🍄. Normalmente lo hago acompañado de mis dos perros, uno de ellos es un <Link href='https://es.wikipedia.org/wiki/Perro_trufero'><a target='_blank' rel='noopener noreferrer'>perro trufero</a></Link> (se llama <Link href='img/leo.png'><a target='_blank' rel='noopener noreferrer'>Leo</a></Link>).</p>
         <p>Soy un gran aficionado al <strong>modelismo</strong>. Me encanta trastear con pinturas, pinceles, aerógrafos, esculpiendo o crear maquetas y dioramas. Desde hace tiempo me ha llamado la atención el mundo del <strong>diseño 3D</strong> y estoy aprendiendo a hacerlo con mi tableta gráfica.</p>
         <p>Me entusiasman los <strong>juegos de mesa</strong>, tengo muchísimos y de todos los estilos, y siempre que me reúno con amigos solemos jugar a alguno. También me gusta <strong>leer</strong> (procuro hacerlo todos los días), especialmente libros de ciencia ficción, y soy muy fan de <strong>Star Wars</strong> .</p>
 

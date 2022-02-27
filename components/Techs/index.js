@@ -9,7 +9,7 @@ import nextLogo from '../../public/img/logos/nextjs.svg'
 import sassLogo from '../../public/img/logos/sass.svg'
 import jestLogo from '../../public/img/logos/jest.svg'
 import mongoDBLogo from '../../public/img/logos/mongodb.svg'
-import springLogo from '../../public/img/logos/spring.svg'
+import symfonyLogo from '../../public/img/logos/symfony.svg'
 import tsLogo from '../../public/img/logos/typescript.svg'
 import gitLogo from '../../public/img/logos/git.svg'
 import graphqlLogo from '../../public/img/logos/graphql.svg'
@@ -34,7 +34,7 @@ export default function Techs () {
     { alt: 'GraphQL logo', ...graphqlLogo },
     { alt: 'Jest logo', ...jestLogo },
     { alt: 'Git logo', ...gitLogo },
-    { alt: 'Spring logo', ...springLogo }
+    { alt: 'Symfony logo', ...symfonyLogo }
   ]
   return (
     <div className={styles.container}>

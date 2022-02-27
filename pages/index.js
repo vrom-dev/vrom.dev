@@ -55,9 +55,9 @@ export default function Home ({ posts, repos }) {
 
 export async function getStaticProps () {
   const posts = await getAllFilesMetadata()
-  const reposData = await fetch('https://gh-pinned-repos-5l2i19um3.vercel.app/?username=vrom-dev')
+  const reposData = await fetch('https://gh-pinned-repos.egoist.sh/?username=vrom-dev')
   const reposJson = await reposData.json()
-  const dicc = ['🐶','📃', '👨‍🏫']
+  const dicc = ['📢','🐶', '📙']
   const repos = reposJson
     .slice(0, 3)
     .map((repo, i) => ({ ...repo, icon: dicc[i] }))
